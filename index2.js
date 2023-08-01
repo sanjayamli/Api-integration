@@ -1,5 +1,5 @@
 let p = fetch(
-'https://api.tomorrow.io/v4/timelines?location=40.75872069597532,-73.98529171943665&fields=temperature&timesteps=1h&units=metric&apikey=8LZk8hSNsVm0xKjpdwaBEkNg2zYRpbiC');
+'https://goweather.herokuapp.com/weather/Curitiba');
 p.then((value1)=>{
      
       console.log(value1.status)
