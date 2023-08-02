@@ -28,7 +28,7 @@ const mainFun = async()=>{
 
   }
   let todor = await createTodo(todo)
-  console.log(todor)
+//  console.log(todor)
   console.log(await getTodo(101))
 }
 
